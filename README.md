@@ -3,7 +3,7 @@
 step1--> install django version 2.2 , using pip
 
 
-step2--> to create a project goto the directory where you want to make your project
+step2--> to create a project, (i.e.) goto the directory where you want to make your project
          and hit command -->  django-admin startproject <PROJECT-NAME>
          <PROJECT-NAME> --->  a folder is created by this name (whichever you mention in the command above)
          and this folder contains all the configuration files that are necessary for any django project
