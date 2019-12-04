@@ -13,6 +13,12 @@ def home(request):
 def demohtml(request):
     return HttpResponse('<h1>hello<h1>')
 
+
+
+def about(request):
+    return render(request, 'about.html')
+
+
 def demoTemplate(request):
     return render(request,'home.html',{'key':'this value is passed in html page'})
 
